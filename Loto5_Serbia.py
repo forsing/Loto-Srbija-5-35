@@ -64,7 +64,7 @@ algorithm_globals.random_seed = SEED
 # =========================
 # Učitavanje CSV
 # =========================
-csv_path = '/Users/4c/Desktop/GHQ/data/loto5_153_k40.csv'
+csv_path = '/data/loto5_153_k40.csv'
 df = pd.read_csv(csv_path, header=None)
 
 
@@ -769,7 +769,7 @@ print("Sve     :", prediction)
 print()
 
 """
-Sve     : 2, 6, 7, 26, 28, 6
+Sve     : 2, x, y, z, 28, 6
 """
 
 
